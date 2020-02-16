@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<div class="hero">
+	<div class="form-box">
+		
+	<div class="botom-box">
+		<div id="btnn"></div>
+		<button type="button" class="btn" onclick="login()">Log in</button>
+		<button type="button" class="btn" onclick="Register()">Register</button>
+	</div>
+
+	<div class="icon">
+		<img src="a1.jpg" width="30px" height="30px" style="border-radius: 50%">
+			<img src="a2.jpg" width="30px" height="30px" style="border-radius: 50%">
+				<img src="a3.jpg" width="30px" height="30px" style="border-radius: 50%">
+				
+	</div>
+	<form id="login" class="input">
+		<input type="text"class="input-field" placeholder="User Id" required>
+		<input type="text" class="input-field" placeholder="Enter Password" required>
+		<input type="checkbox" class="check-box"><span>Remember Password</span>
+		<button type="submit" class="submit-btn"><b> <a href="screet-chat.html" style="text-decoration: none;
+		color: black;
+		font-family: sans-serif">Log In</a></b></button>
+	</form>
+
+
+	<form id="Register" class="input" >
+		<input type="text" class="input-field" placeholder="User Id" required>
+		<input type="text" class="input-field" placeholder="Enter Email" required>
+		<input type="checkbox" class="check-box"><span>I agree to the trems & condition</span>
+		<button type="submit" class="submit-btn">Register</button>
+	</form>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var x = document.getElementById("login");
+	var y = document.getElementById("Register");
+	var z = document.getElementById("btnn");
+
+
+
+
+	function Register(){
+		x.style.left="-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+
+
+	function login(){
+		x.style.left="50px";
+		y.style.left="450px";
+		z.style.left="0";
+	}
+	
+</script>
+
+
+</body>
+</html>
