@@ -1,0 +1,43 @@
+body{background-color: #E9EBEE}
+
+
+
+.fa {font-size: 25px}
+ .fas{font-size: 25px}
+ .fab{font-size: 25px}
+ .navbar{height: 45px}
+ .collapse{margin-top: 10px}
+
+
+
+
+.carousel-item img{width: 100%;}
+
+.form-control{height: 70px}
+.btn{margin-left: 20px}
+.row div{margin-left: 10px;margin-top: 10px}
+
+
+#pic{height: 100%;border-radius: 20px;position: relative;}
+
+ #pic:Hover{transform: scale(1.2);transition: 1s}
+.p{position: absolute;}
+
+#style:focus{color:#3784FF;  }
+
+
+.container{width: 70%;margin-right: 60px}
+.alert{height: 70px}
+
+.a{border:5px solid grey;
+	border-bottom-color: white;
+height: 100px;width: 100px;border-radius: 50%;
+margin: auto;
+animation: aa 3s linear infinite}
+
+@keyframes aa{0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}}
+
+.carousel-caption{background-color: black;
+opacity: 0.8;color: white}
+.carousel-indicators{margin-bottom: 25px}
